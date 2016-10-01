@@ -1,0 +1,550 @@
+@font-face {
+font-family: 'DIN Pro Bold';
+font-style: normal;
+font-weight: normal;
+src: local('DIN Pro Bold'), url('//aliashe.github.io/ks/BFF/DINPro-Bold.woff') format('woff');
+}
+* {
+	outline:none;
+}
+a.text-inverse:hover, a.text-inverse:active, a.text-inverse:focus, a.text-inverse:visited {
+	color:#fff;
+}
+#pmpro_user_fields, #email_pass_div {
+	display:none;
+}
+.membership-cancel #pmpro_cancel > div > a {
+    display: block !important;
+} 
+.membership-cancel #pmpro_cancel > div > a.pmpro_btn.pmpro_cancel.pmpro_nolink.nolink {
+	float:left;
+}
+ .navbar-btn {
+       margin-left:5px; 
+        margin-right:5px;
+      }
+      .navbar-text {
+       padding-top:2px;
+        padding-right:10px;
+        font-family: "DIN Pro Bold";
+      }
+      .navbar-text a {
+   color:#ED1C24 !important;
+      }
+      .navbar-btn.btn-link, .navbar-btn.btn-link:hover {
+         color: #ED1C24;
+    font-family: "DIN Pro Bold";
+    border: 1px solid #ED1C24;
+    margin-top: 11.5px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    font-weight: bolder;
+    margin-left: 10px;
+    font-size: 1.15em;
+        text-decoration:none;
+}
+.membership-account #pmpro_account-membership > table > tbody > tr > td.pmpro_account-membership-levelname > div > a:nth-child(2) {
+	display:none !important;
+}
+.membership-checkout td, th, th {
+    border: none !important;
+}
+.membership-cancel hr {
+	display:none;
+}
+.modal-open .modal {
+    padding-right: 0px !important;
+}
+th {
+    border: 1px solid #eee;
+    border-radius: 5px;
+}
+td, th {
+    padding: 0;
+    border: 1px solid #eee;
+    padding: 5px;
+}
+#pmpro_confirmation_table {
+	margin-top:20px;
+}
+.membership-confirmation #nav-below > div > a {
+margin-top:30px !important;
+margin-bottom:20px !important;
+}
+#pmpro_account-membership > table > tbody > tr > td.pmpro_account-membership-levelname > div > a:nth-child(1),
+#pmpro_account-membership > div > a, 
+#pmpro_account-profile > div > a:nth-child(2) {
+
+display:none;
+}
+#pmpro_cancel > div > a {
+	display:none !important;
+}
+.membership-confirmation #myModal > div.modal-dialog a, 
+.membership-account #myModal > div.modal-dialog a,
+.membership-invoice #myModal > div.modal-dialog a,
+.membership-cancel #myModal > div.modal-dialog a
+{
+     background-color: #ED1C24;
+    border-radius: 0;
+    font-family: "DIN Pro Bold";
+    padding: .1em .4em .1em;
+    font-size: 14.5px;
+    margin-top: 0.7em;
+    border-color: #ED1C24;
+    color: white;
+    float: right;
+    margin: 9px;
+    margin-bottom: 10px;
+}
+.membership-invoice #nav-below > div.nav-prev.alignleft > a {
+float:left !important;
+}
+#nav-below {
+	margin-top:10px;
+}
+#pmpro_invoice_table {
+	margin-top:15px;
+}
+#pmpro_account-invoices > table > tbody > tr > td:nth-child(1) > a {
+	float:left !important;
+}
+p {
+    font-size: 1.05em;
+    color: #222;
+}
+h3, .h3 {
+    font-size: 20px;
+    color: #ED1C24;
+    font-weight:bold;
+}
+body.membership-checkout .cover, body.page .cover  {
+	min-height:102%;
+}
+body.membership-checkout .navbar, body.page .navbar { 
+    background: #fff;
+    width: 100%;
+        top: 0;
+    position: fixed;
+}
+p.text-inverse.small {
+    font-size: 1.2em !important;
+    margin-bottom: 0px;
+}
+
+@media only screen and (max-width : 991px) {
+body.membership-checkout label {
+text-align: left;
+width: 100%;
+    }
+body.membership-checkout .col-md-7.form-control {
+       width: 95%;
+    margin-right: 2.5%;
+}
+span.pmpro_asterisk {
+	display:none;
+}
+body.membership-checkout .leftmar small.lite {
+    padding-left: 3% !important;
+    }
+}
+    
+table#pmpro_payment_information_fields {
+    margin-top: 22px;
+    padding-top: 13px;
+}
+#pmpro_payment_information_fields > tbody {
+    background: white;
+    width: 83.33333333% !important;
+    display: block;
+    margin-left: 8.33333333%;
+    border-radius: 5px;
+    padding: 15px;
+}
+#pmpro_payment_information_fields > tbody > tr, #pmpro_payment_information_fields > tbody > tr > td {
+    width: 100%;
+    display: block;
+     overflow: auto;
+}
+input#AccountNumber, #CVV, #ExpirationMonth, #ExpirationYear {
+z-index: 9999;
+        width: 94%;
+    margin-left: 3%;
+    height: 34px;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #555555;
+    background-color: #ffffff;
+    background-image: none;
+    border: 1px solid #cccccc;
+    border-radius: 4px;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+    -webkit-transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+    -o-transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+    transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+}
+#ExpirationMonth, #ExpirationYear {
+    width: 44%;
+    display: inline-block;
+}
+#ExpirationMonth {
+    margin-left: 14px;
+        margin-right: 11px;
+        width: 37%;
+}
+#pmpro_payment_information_fields > tbody > tr > td > div.pmpro_payment-cvv > small {
+    text-align: right;
+    width: 100%;
+    padding-right: 16%;
+    font-size: 0.7em;
+    position: absolute;
+    left: 0;
+    margin-top: -24px;
+}
+#pmpro_payment_information_fields abbr  {
+    display:none;
+}
+#pmpro_payment_information_fields > tbody {
+padding-bottom: 77px;
+}
+input[type="submit"] {
+   -webkit-appearance: button;
+    font-size: 1.4em !important;
+    color: #ffffff;
+    background-color: #ED1C24;
+    border: #ED1C24 1px solid;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    margin-top: -56px;
+position: absolute;
+width: 65%;
+    margin-left: 15%;
+    border-radius:5px;
+    
+}
+#pmpro_form > div.pmpro_submit {
+    width: 90%;
+}
+#pmpro_payment_information_fields > tbody > tr > td > div.pmpro_payment-account-number > label,
+#pmpro_payment_information_fields > tbody > tr > td > div.pmpro_payment-expiration > label,
+#pmpro_payment_information_fields > tbody > tr > td > div.pmpro_payment-cvv > label
+ {
+    display: block;
+    width: 100%;
+    text-align: left;
+    text-transform: uppercase;
+    color: #444;
+    margin-bottom:10px;
+    font-size: 0.9em;
+    margin-top: 12px;
+}
+
+.pmpro_payment-expiration {
+    width: 58.33333333%;
+    float:left;
+    }
+    
+   .pmpro_payment-cvv {
+    width: 40%;
+    float: left;
+}
+    
+#pmpro_payment_information_fields > thead > tr > th {
+    text-align: center;
+}
+#pmpro_account_loggedin:before {
+	content:'Please complete all the fields below. ';
+}
+
+
+#pmpro_account_loggedin, #pmpro_message {
+    color: #fff;
+    margin: 0 25px 25px;
+    margin-bottom: 20px;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    position: absolute;
+    margin-top: -82px;
+    width: 100%;
+    font-size: 1em;
+    line-height: 1em;
+        left: -6%;
+    text-align:center;
+}
+#pmpro_account_loggedin a {
+	color:#fff;
+	text-decoration:underline;
+}
+span.pmpro_thead-name {
+    color: #ED1C24;
+    text-transform: uppercase;
+    font-size: 100%;
+    border-radius: 0;
+    padding: .1em .4em .1em;
+    font-size: 35px;
+    width: 100%;
+    margin: 14px auto;
+    text-align: center !important;
+    border-top: 1px solid #ccc;
+    padding-top: 12px;
+}
+
+span.pmpro_thead-msg {
+    display: block;
+    margin-top: 8px;
+    margin-bottom: 25px;
+}
+span.pmpro_asterisk {
+    margin-left: -10px;
+    margin-top: 7px;
+    position: absolute;
+}
+.leftmar {
+    width: 100%;
+    display: block;
+    margin-bottom: -43px;
+}
+.leftmar small.lite {
+    padding-left: 37%;
+    margin-top: 6px;
+    display: inline-block;
+    color: #999;
+    font-size: 0.95em;
+}
+.pmpro_checkout-field {
+    padding-bottom: 53px;
+}
+#pmpro_checkout_box-checkout_boxes > h2 {
+    display: none;
+}
+.col-md-7.form-control {
+    width: 55%;
+}
+#pmpro_pricing_fields {
+	display:none;
+}
+body.membership-checkout .navbar {
+    background: #fff;
+    width: 100%;
+}
+body.membership-checkout .modal-content {
+        background: rgba(255,255,255,0.95);
+}
+body.membership-checkout .modal-body {
+        background: transparent;
+            margin-bottom: 20px;
+}
+.navbar-static-top {
+    z-index: 1051;
+}
+body.membership-checkout .modal > div.container > div > div > h1 > span {
+    font-size: 1.75em;
+}
+@media only screen and (max-width : 768px) {
+body.membership-checkout .modal > div.container > div > div > h1 > span {
+    font-size: 1em;
+}
+    }
+body.membership-checkout .modal > div.container > div > div {
+    margin-top: 50px;
+}
+body.membership-checkout .modal > div.container > div > div > p {
+    font-size: 1.55em;
+}
+.modal-backdrop.in {
+    opacity: 0.5;
+    filter: alpha(opacity=0.5);
+}
+.register:hover {
+color:#ED1C24 !important;
+}
+.navbar {
+	background:#fff;
+	border:none;
+}
+.navbar-brand {
+	font-weight:bolder;
+	font-family: "DIN Pro Bold";
+	color: #ED1C24 !important;
+}
+.label-danger {
+	background-color:#ED1C24;
+	font-size:100%;
+	border-radius:0;
+	padding: .1em .4em .1em;
+}
+
+.label-white {
+	background-color:#fff;
+	color:#ED1C24;
+	    font-size: 160% !important;
+	border-radius:0;
+	padding: .1em .4em .1em;
+	    font-family: "DIN Pro Bold";
+}
+
+.btn-lg, .btn-group-lg > .btn {
+    padding: 10px 16px !important;
+    }
+.btn-danger {
+    background-color: #ED1C24;
+    border-radius: 0;
+    font-family: "DIN Pro Bold";
+    padding: .1em .4em .1em;
+    font-size: 16.5px;
+    margin-top: 0.7em;
+    border-color:#ED1C24;
+}
+
+.fa-5x {
+	font-size:6em !important;
+}	
+
+.cover {
+	min-height:calc(100% - 52px);
+	
+	}
+/***
+
+.cover {
+	min-height:80%;
+}
+
+*/
+legend {
+	border-bottom:transparent;
+}
+label {
+    color: #000;
+    font-size: 1em;
+    text-align: right;
+    margin-bottom: 0;
+    padding-top: 7px;
+    width: 33.33333333%;
+        padding-left: 15px;
+    padding-right: 15px;
+    float:left;
+}
+.help-block {
+    color: #666;
+    text-align: left;
+    margin-bottom:-5px;
+}
+
+.carousel .item {
+                                                       	width:100%;
+                                                        height:100%;
+                                                      }
+                                                      
+                                                      
+                                                      
+                                                .carousel .item {
+                                                    -webkit-transition: opacity 3s; 
+                                                    -moz-transition: opacity 3s; 
+                                                    -ms-transition: opacity 3s; 
+                                                    -o-transition: opacity 3s; 
+                                                    transition: opacity 3s;
+                                                }
+                                                .carousel .item {
+                                                    left:0;top:0;opacity:0;z-index:1;display:block;position:absolute;
+                                                }
+                                                .carousel .item.active {
+                                                    left:0;top:0;opacity:1;z-index:2;display:block;position:relative;
+                                                }
+                                                
+                                                @media only screen and (max-width : 767px) {
+.membership-cancel .col-xs-12 {
+    width: 100%;
+    text-align: center;
+}
+.membership-cancel #pmpro_cancel > div > a {
+    float: none !important;
+    width: 93%;
+    margin: 25px auto !important;
+    display: block !important;
+}
+                                                .label-white {
+    font-size: 90% !important;
+}
+                                                #pmpro_payment_information_fields > tbody {
+    width: 98% !important;
+    margin-left: 1% !important;
+}
+input[type="submit"] {
+        width: 75%;
+    margin-left: 8%;
+}
+#pmpro_checkout_box-checkout_boxes {
+    margin-top: -14px;
+}
+span.pmpro_thead-msg {
+    width: 90%;
+    margin-left: 5%;
+    font-size: 0.9em;
+}
+    body.membership-checkout .modal > div.container > div > div > p,  {
+    font-size: 1.2em !important;
+    text-shadow: 1px 1px 1px black;
+}
+#pmpro_account_loggedin,  #pmpro_message {
+text-shadow: 1px 1px 1px black;
+}
+
+.pmpro_payment-expiration {
+    width: 100% !important;
+    float: left;
+}
+#ExpirationMonth {
+    margin-left: 0px !important;
+}
+#pmpro_payment_information_fields > tbody > tr > td > div.pmpro_payment-cvv > small {
+    padding-right: 27% !important;
+    margin-top: -17px !important;
+}
+input[type="submit"] {
+    font-size: 1em !important;
+}
+#AccountNumber {
+    width: 100% !important;
+    margin-left: 0 !important;
+    }
+body.membership-checkout .modal > div.container > div > div > h1 > span {
+    font-size: 1em;
+}
+span.pmpro_thead-name {
+    font-size: 1.2em !important;
+}
+.cover p {
+    margin-bottom: 15px;
+    font-size: 16px;
+    font-weight: 200;
+}
+.navbar-brand {
+    font-weight: bolder;
+    font-family: "DIN Pro Bold";
+    color: #ED1C24 !important;
+    margin-left: -13px;
+    text-align: center;
+    font-size: 1.1em !important;
+    width: 100%;
+    position: absolute;
+}
+#ExpirationYear {
+    margin-left: 7%;
+}
+body.membership-checkout .modal > div.container > div > div > p {
+font-size:1em;
+}
+#pmpro_invoices_table, #pmpro_invoices_table > tbody > tr > td > a {
+	font-size:0.82em !important;
+}
+.membership-invoice .col-xs-12, .membership-cancel .col-xs-12 {
+padding:0 !important;
+}
+.membership-invoice td, .membership-invoice tr {
+	padding:0;
+}
+    }

@@ -1,0 +1,57 @@
+.your-profile .cover {
+background-image:linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.5)), url("http://www.britishfirefighterchallenge.co.uk/wp-content/themes/Britsh-Firefighters-Challange/images/british firefighter challenge.jpg");
+background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.your-profile #email_pass_tr {
+	display:none;
+}
+
+
+.your-profile #your-profile > h3:nth-child(4),
+.your-profile #your-profile > table:nth-child(5),
+.your-profile #your-profile > table:nth-child(7) > tbody > tr.tml-user-login-wrap > th,
+.your-profile #your-profile > table:nth-child(7),
+.your-profile #your-profile > h3:nth-child(6),
+.your-profile #your-profile > h3:nth-child(8),
+.your-profile #your-profile > table:nth-child(9),
+.your-profile #your-profile > h3:nth-child(10),
+.your-profile #your-profile > table:nth-child(11),
+.your-profile #your-profile > h3:nth-child(12),
+.your-profile #your-profile > table:nth-child(13),
+.your-profile #your-profile > h3:nth-child(14)  {
+	display:none !important;
+}
+
+.your-profile label {
+width:100%;
+    font-size: 12px;
+        padding-left: 0;
+    padding-right: 8px;
+}
+
+.your-profile input, .your-profile .col-md-7.form-control {
+    width: 100% !important;
+    right: 0 !important;
+        margin-bottom: 7px;
+}
+.your-profile .leftmar {
+    margin-bottom: 0 !important;
+}
+.your-profile .leftmar small.lite {
+    padding-left: 0 !important;
+        margin-top: 0px;
+        font-size: 12px;
+}
+.your-profile input[type="submit"] {
+    margin-top: 35px;
+    margin-left: 0;
+    border-radius: 5px;
+}
+.your-profile .col-xs-12, .your-profile td, .your-profile th {
+padding:0;
+vertical-align: top;
+border:0;
+}
